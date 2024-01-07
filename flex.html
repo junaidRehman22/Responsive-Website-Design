@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container{
+    width: 350px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+}
+/* 
+div:nth-of-type(1){
+    flex-grow: 1;
+}
+div:nth-of-type(2){
+    flex-grow: 0;
+}
+div:nth-of-type(3){
+    flex-grow: 1;
+    flex-basis: 50px;
+}
+div:nth-of-type(4){
+    flex-grow: 7;
+}
+div:nth-of-type(5){
+    flex-grow:0;
+    flex-basis: 100px;
+}
+div:nth-of-type(6){
+    flex-grow: 0;
+    flex-basis: 100px;
+    flex-shrink: 7;
+
+} */
+
+
+div:nth-of-type(2){
+flex-basis: 60%;
+}
+div:nth-of-type(1){
+flex-basis: 30%;
+}
+div:nth-of-type(3){
+flex-basis: 10%;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="background-color: lightblue;"></div>
+        <div style="background-color: lightcoral;"></div>
+        <div style="background-color: lightgray;"></div>
+        <div style="background-color:lightskyblue;"></div>
+        <div style="background-color:lightgreen;"></div>
+        <div style="background-color:lawngreen;"></div>
+    </div>
+</body>
+</html>
